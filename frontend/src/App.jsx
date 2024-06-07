@@ -65,7 +65,7 @@ if( isValidEmail(fromEmail)==false){
           <span className="input-group-text" id="basic-addon1">
           <MdSubject />
           </span>
-          <input type="email" className="form-control" placeholder="write ur subject" aria-label="From Email" aria-describedby="basic-addon1" value={fromEmail} onChange={(e) => setSubject(e.target.value)} required />
+          <input type="email" className="form-control" placeholder="write ur subject" aria-label="From Email" aria-describedby="basic-addon1" onChange={(e) => setSubject(e.target.value)} required />
         </div></div>
         <div className="container">
           <label>Email-MSG</label>
